@@ -1,22 +1,35 @@
-# vscode
-.vscode 
-
-# Intellij
+# Editor settings and project files
+.vscode
 *.iml
 .idea
 
-# npm
+# Node.js package directories
 node_modules
 
-# Don't include the compiled main.js file in the repo.
-# They should be uploaded to GitHub releases instead.
-main.js
+# Build outputs
+*.map  # Only exclude source maps and other non-essential build files
 
-# Exclude sourcemaps
-*.map
+# TypeScript outputs (if applicable)
+*.d.ts
 
-# obsidian
-data.json
+# Environment variables and configuration files
+.env
 
-# Exclude macOS Finder (System Explorer) View States
+# Log files
+*.log
+
+# Local database files
+*.db
+*.sql
+
+# Dependency lock files
+yarn.lock  # Include if you don't use Yarn
+
+# macOS system files
 .DS_Store
+
+# Plugin workspace settings
+codeblock-search.code-workspace
+
+# Data files specific to Obsidian
+data.json

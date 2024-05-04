@@ -1,8 +1,19 @@
-/*
+.code-block {
+    background-color: #242424; /* Light grey background */
+    border: 1px solid #ccc; /* Grey border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the block */
+    white-space: pre-wrap; /* Maintains whitespace formatting */
+    word-break: break-all; /* Ensures long lines wrap */
+    overflow-x: auto; /* Adds horizontal scrolling if needed */
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.code-block code {
+    font-family: monospace; /* Ensures code-like typography */
+    color: #b3b3b3;
+}
 
-If your plugin does not need CSS, delete this file.
-
-*/
+.code-block, .code-block code {
+    user-select: text; /* Allows text to be selected */
+    cursor: text; /* Changes cursor to indicate text can be selected */
+}
