@@ -1,24 +1,33 @@
 # Obsidian Code Block Search Plugin
-
-This sample plugin demonstrates some of the basic functionality the plugin API can do.
 - Adds a new search function returning only results that appear inside of code blocks.
-- Searches across all notes in your vault.
+- Returns the entire contents of the code block.
+- Searches across all notes in your vault. Search is not case sensitive.
 - Generates a temporary tab containing all results.
 - Can highlight part of the text and copy it, or click the copy button to copy the entirety of the code.
 
-## Support Me
+# Example
 
-If this plugin has helped you, please consider donating to any of the following:
+Press hotkey to open search prompt.
+
+![[Pasted image 20240505100124.png]]
+
+Open Code Block Search Results tab for all results. Tab contents clear on exiting the app.
+
+![[Pasted image 20240505100146.png]]
+Can keep multiple searches open at once.
+![[Pasted image 20240505100523.png]]
+
+# How to use
+- Download and unzip the plugin folder.
+- Go to Settings > Community Plugins > Open Folder.
+- Move the unzipped folder into the plugins folder for your vault.
+- Reload plugins.
+- Turn on Code Block Search and hit the (+) icon to assign a hotkey.
+- Hitting the hotkey will prompt you to enter any string into the search popup and hit enter.
+- Click copy to copy the entire block or highlight the desired text to copy.
+
+## Support me
+If this plugin has helped you, please consider donating to either of the following:
 - BTC: bc1q3eyafkueyts7tj9u34x3p04t0dhpc5rhna0ruv
 - XMR: 42rVZefpocH3Bn3FE3cEFRiDhHtSEAVTUGYJyd3W6FL3JHoachPcu2pWJjS3braJLkAQgWqHHcmDdY3yWC7ZVsZ7JuuRzuo
 
-## How to use
-
-- Clone this repo.
-- Make sure your NodeJS is at least v16 (`node --version`).
-- `npm i` or `yarn` to install dependencies.
-- `npm run dev` to start compilation in watch mode.
-
-## Manually installing the plugin
-
-- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.

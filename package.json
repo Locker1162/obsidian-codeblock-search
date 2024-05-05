@@ -1,7 +1,7 @@
 {
 	"name": "code-block-search",
 	"version": "1.0.0",
-	"description": "Allows you to search only for strings inside of code blocks",
+	"description": "Allows you to search for strings returning only results inside of code blocks.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
