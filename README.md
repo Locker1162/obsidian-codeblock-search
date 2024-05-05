@@ -9,7 +9,7 @@
 
 Press hotkey to open search prompt.
 
-![[Pasted image 20240505100124.png]]
+![Search Example 1](https://github.com/Locker1162/obsidian-codeblock-search/blob/master/Search%20Result%20Examples/Pasted%20image%2020240505095850.png)
 
 Open Code Block Search Results tab for all results. Tab contents clear on exiting the app.
 
