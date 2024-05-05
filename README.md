@@ -9,13 +9,15 @@
 
 Press hotkey to open search prompt.
 
-![Search Example 1](https://github.com/Locker1162/obsidian-codeblock-search/blob/master/Search%20Result%20Examples/Pasted%20image%2020240505095850.png)
+![Dig Search Example](https://github.com/Locker1162/obsidian-codeblock-search/blob/master/Search%20Result%20Examples/Pasted%20image%2020240505100124.png)
 
 Open Code Block Search Results tab for all results. Tab contents clear on exiting the app.
 
-![[Pasted image 20240505100146.png]]
+![Dig Search Results](https://github.com/Locker1162/obsidian-codeblock-search/blob/master/Search%20Result%20Examples/Pasted%20image%2020240505100146.png)
+
 Can keep multiple searches open at once.
-![[Pasted image 20240505100523.png]]
+
+![Multiple Code Block Searches](https://github.com/Locker1162/obsidian-codeblock-search/blob/master/Search%20Result%20Examples/Pasted%20image%2020240505100523.png)
 
 # How to use
 - Download and unzip the plugin folder.
