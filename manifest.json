@@ -5,7 +5,7 @@
 	"minAppVersion": "0.15.0",
 	"description": "Search function returning only results inside code blocks.",
 	"author": "Locker1162",
-	"authorUrl": "",
-	"fundingUrl": "",
+	"authorUrl": "https://github.com/Locker1162",
 	"isDesktopOnly": true
-}
+  }
+  
